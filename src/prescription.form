@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" pref="851" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="99" green="99" red="0" type="rgb"/>
+        </Property>
+        <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+          <Border info="org.netbeans.modules.form.compat2.border.TitledBorderInfo">
+            <TitledBorder title="PRESCRIPTION">
+              <Font PropertyName="font" name="Tahoma" size="36" style="1"/>
+              <Color PropertyName="color" blue="ff" green="ff" red="ff" type="rgb"/>
+            </TitledBorder>
+          </Border>
+        </Property>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="printscreen">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="0" green="0" red="0" type="rgb"/>
+            </Property>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder thickness="3"/>
+              </Border>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="490" y="50" width="340" height="330"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" alignment="0" pref="334" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jScrollPane1" alignment="1" pref="324" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+              <AuxValues>
+                <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+              </AuxValues>
+
+              <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+              <SubComponents>
+                <Component class="javax.swing.JTextArea" name="Area">
+                  <Properties>
+                    <Property name="columns" type="int" value="20"/>
+                    <Property name="rows" type="int" value="5"/>
+                  </Properties>
+                </Component>
+              </SubComponents>
+            </Container>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Cambria" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Remarks:"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="270" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="P_name">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Cambria" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Patient Name:"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="70" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="name_tablet">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Cambria" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Name of Med:"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="100" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="no_of_tab">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Cambria" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Quantity"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="130" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="L_med_type">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Cambria" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Type:"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="190" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JLabel" name="dosage_L">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Cambria" size="18" style="0"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="Dosage:"/>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="160" width="-1" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="Combo_type">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="4">
+                <StringItem index="0" value="-"/>
+                <StringItem index="1" value="Syrup"/>
+                <StringItem index="2" value="Injection"/>
+                <StringItem index="3" value="Tablet"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="140" y="190" width="100" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="Combo_tablets">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="211">
+                <StringItem index="0" value="-"/>
+                <StringItem index="1" value="Abacavir"/>
+                <StringItem index="2" value="Acyclovir"/>
+                <StringItem index="3" value="Alemtuzumab"/>
+                <StringItem index="4" value="Alendronate"/>
+                <StringItem index="5" value="Allopurinol"/>
+                <StringItem index="6" value="Amifostine"/>
+                <StringItem index="7" value="Amikacin"/>
+                <StringItem index="8" value="Aminocaproic Acid"/>
+                <StringItem index="9" value="Amitriptyline"/>
+                <StringItem index="10" value="Amlodipine"/>
+                <StringItem index="11" value="Amoxicillin"/>
+                <StringItem index="12" value="Amoxicillin / clavulanic acid"/>
+                <StringItem index="13" value="Amphotericin B"/>
+                <StringItem index="14" value="Ampicillin"/>
+                <StringItem index="15" value="Anti-thymocyte globulin"/>
+                <StringItem index="16" value="Aprepitant"/>
+                <StringItem index="17" value="Asparaginase"/>
+                <StringItem index="18" value="Atazanavir (Reyataz&#xae;)"/>
+                <StringItem index="19" value="Atenolol"/>
+                <StringItem index="20" value="Atovaquone"/>
+                <StringItem index="21" value="Azithromycin"/>
+                <StringItem index="22" value="Baclofen"/>
+                <StringItem index="23" value="Bleomycin"/>
+                <StringItem index="24" value="Bortezomib"/>
+                <StringItem index="25" value="Bosentan"/>
+                <StringItem index="26" value="Busulfan"/>
+                <StringItem index="27" value="Calcium"/>
+                <StringItem index="28" value="Captopril"/>
+                <StringItem index="29" value="Carbamazepine"/>
+                <StringItem index="30" value="Carboplatin"/>
+                <StringItem index="31" value="Carmustine"/>
+                <StringItem index="32" value="Cefaclor"/>
+                <StringItem index="33" value="Cefepime"/>
+                <StringItem index="34" value="Cefixime"/>
+                <StringItem index="35" value="Ceftazidime"/>
+                <StringItem index="36" value="Cefuroxime"/>
+                <StringItem index="37" value="Celecoxib"/>
+                <StringItem index="38" value="Cephalexin"/>
+                <StringItem index="39" value="Cidofovir"/>
+                <StringItem index="40" value="Cisplatin"/>
+                <StringItem index="41" value="Cladribine"/>
+                <StringItem index="42" value="Clarithromycin"/>
+                <StringItem index="43" value="Clindamycin"/>
+                <StringItem index="44" value="Clobazam"/>
+                <StringItem index="45" value="Clofarabine"/>
+                <StringItem index="46" value="Codeine"/>
+                <StringItem index="47" value="Crizanlizumab"/>
+                <StringItem index="48" value="Crizotinib"/>
+                <StringItem index="49" value="Cyclobenzaprine"/>
+                <StringItem index="50" value="Cyclophosphamide"/>
+                <StringItem index="51" value="Cyclosporine"/>
+                <StringItem index="52" value="Cyproheptadine"/>
+                <StringItem index="53" value="Cytarabine"/>
+                <StringItem index="54" value="Dacarbazine"/>
+                <StringItem index="55" value="Dactinomycin"/>
+                <StringItem index="56" value="Dapsone"/>
+                <StringItem index="57" value="Darunavir (Prezista&#xae;)"/>
+                <StringItem index="58" value="Dasatinib"/>
+                <StringItem index="59" value="Daunorubicin"/>
+                <StringItem index="60" value="Deferasirox (Exjade&#xae;)"/>
+                <StringItem index="61" value="Desmopressin (Stimate&#xae;)"/>
+                <StringItem index="62" value="Dexamethasone"/>
+                <StringItem index="63" value="Diclofenac"/>
+                <StringItem index="64" value="Didanosine"/>
+                <StringItem index="65" value="Dinutuximab"/>
+                <StringItem index="66" value="Dobutamine"/>
+                <StringItem index="67" value="Dopamine"/>
+                <StringItem index="68" value="Dornase alfa"/>
+                <StringItem index="69" value="Doxorubicin"/>
+                <StringItem index="70" value="Dronabinol"/>
+                <StringItem index="71" value="Efavirenz"/>
+                <StringItem index="72" value="Enalapril"/>
+                <StringItem index="73" value="Enoxaparin"/>
+                <StringItem index="74" value="Erlotinib"/>
+                <StringItem index="75" value="Erythromycin"/>
+                <StringItem index="76" value="Erythropoietin"/>
+                <StringItem index="77" value="Etonogestrel (Nexplanon&#xae;)"/>
+                <StringItem index="78" value="Etoposide"/>
+                <StringItem index="79" value="Etravirine (Intelence&#xae;)"/>
+                <StringItem index="80" value="Factor IX complex"/>
+                <StringItem index="81" value="Factor IX concentrate"/>
+                <StringItem index="82" value="Factor VIIa (Recombinant)"/>
+                <StringItem index="83" value="Factor VIII (Human) and von Willebrand Factor"/>
+                <StringItem index="84" value="Factor VIII (Recombinant)"/>
+                <StringItem index="85" value="Famciclovir"/>
+                <StringItem index="86" value="Famotidine"/>
+                <StringItem index="87" value="Fidaxomicin"/>
+                <StringItem index="88" value="Fluconazole"/>
+                <StringItem index="89" value="Fludarabine"/>
+                <StringItem index="90" value="Fluorouracil"/>
+                <StringItem index="91" value="Foscarnet"/>
+                <StringItem index="92" value="Furosemide"/>
+                <StringItem index="93" value="G-CSF (Filgrastim)"/>
+                <StringItem index="94" value="Gabapentin"/>
+                <StringItem index="95" value="Ganciclovir"/>
+                <StringItem index="96" value="Gefitinib"/>
+                <StringItem index="97" value="Gemcitabine"/>
+                <StringItem index="98" value="Gemtuzumab ozogamicin"/>
+                <StringItem index="99" value="GM-CSF (Sargramostim)"/>
+                <StringItem index="100" value="Granisetron"/>
+                <StringItem index="101" value="Heparin Lock Flush for children and young adults"/>
+                <StringItem index="102" value="Heparin Lock Flush for infants"/>
+                <StringItem index="103" value="Hydralazine"/>
+                <StringItem index="104" value="Hydrocodone with acetaminophen"/>
+                <StringItem index="105" value="Hydrocortisone"/>
+                <StringItem index="106" value="Hydromorphone"/>
+                <StringItem index="107" value="Hydroxyurea"/>
+                <StringItem index="108" value="Hydroxyurea for sickle cell disease"/>
+                <StringItem index="109" value="Ifosfamide"/>
+                <StringItem index="110" value="Imatinib"/>
+                <StringItem index="111" value="Imipenem / cilastatin"/>
+                <StringItem index="112" value="Immune globulin"/>
+                <StringItem index="113" value="Interferon alfa-2a and alfa-2b"/>
+                <StringItem index="114" value="Interferon alfa-2b for melanoma"/>
+                <StringItem index="115" value="Interleukin-2 (Aldesleukin)"/>
+                <StringItem index="116" value="Irinotecan"/>
+                <StringItem index="117" value="Isotretinoin"/>
+                <StringItem index="118" value="Itraconazole"/>
+                <StringItem index="119" value="Ketoconazole"/>
+                <StringItem index="120" value="L-glutamine"/>
+                <StringItem index="121" value="Labetalol"/>
+                <StringItem index="122" value="Lamivudine"/>
+                <StringItem index="123" value="Leucovorin with high dose methotrexate (HDMTX)"/>
+                <StringItem index="124" value="Levothyroxine"/>
+                <StringItem index="125" value="Linezolid"/>
+                <StringItem index="126" value="Lomustine"/>
+                <StringItem index="127" value="Lopinavir / Ritonavir (Kaletra&#xae;)"/>
+                <StringItem index="128" value="Lorazepam"/>
+                <StringItem index="129" value="Lorlatinib"/>
+                <StringItem index="130" value="Magnesium"/>
+                <StringItem index="131" value="Maraviroc (Selzentry&#xae;)"/>
+                <StringItem index="132" value="Mechlorethamine"/>
+                <StringItem index="133" value="Megestrol acetate"/>
+                <StringItem index="134" value="Meloxicam"/>
+                <StringItem index="135" value="Melphalan"/>
+                <StringItem index="136" value="Meperidine"/>
+                <StringItem index="137" value="Mercaptopurine"/>
+                <StringItem index="138" value="Meropenem"/>
+                <StringItem index="139" value="Mesna"/>
+                <StringItem index="140" value="Methadone"/>
+                <StringItem index="141" value="Methotrexate"/>
+                <StringItem index="142" value="Methylphenidate"/>
+                <StringItem index="143" value="Metronidazole"/>
+                <StringItem index="144" value="Micafungin"/>
+                <StringItem index="145" value="Mitotane"/>
+                <StringItem index="146" value="Mitoxantrone"/>
+                <StringItem index="147" value="Modafinil"/>
+                <StringItem index="148" value="Morphine"/>
+                <StringItem index="149" value="Muromonab &#x2013; CD3"/>
+                <StringItem index="150" value="Mycophenolate mofetil"/>
+                <StringItem index="151" value="Nelarabine"/>
+                <StringItem index="152" value="Nelfinavir"/>
+                <StringItem index="153" value="Neuromuscular blockers"/>
+                <StringItem index="154" value="Nevirapine"/>
+                <StringItem index="155" value="Norepinephrine"/>
+                <StringItem index="156" value="Omeprazole"/>
+                <StringItem index="157" value="Ondansetron"/>
+                <StringItem index="158" value="Oxycodone"/>
+                <StringItem index="159" value="Paclitaxel"/>
+                <StringItem index="160" value="PEGaspargase"/>
+                <StringItem index="161" value="Pegfilgrastim"/>
+                <StringItem index="162" value="Pemetrexed"/>
+                <StringItem index="163" value="Penicillin VK"/>
+                <StringItem index="164" value="Pentamidine (inhaled by mouth)"/>
+                <StringItem index="165" value="Phenobarbital"/>
+                <StringItem index="166" value="Phenytoin"/>
+                <StringItem index="167" value="Phosphorus"/>
+                <StringItem index="168" value="Posaconazole"/>
+                <StringItem index="169" value="Potassium"/>
+                <StringItem index="170" value="Prednisone"/>
+                <StringItem index="171" value="Probenecid"/>
+                <StringItem index="172" value="Procarbazine"/>
+                <StringItem index="173" value="Promethazine"/>
+                <StringItem index="174" value="Promethazine topical gel"/>
+                <StringItem index="175" value="Propoxyphene"/>
+                <StringItem index="176" value="Raltegravir (Isentress&#xae;)"/>
+                <StringItem index="177" value="Ranitidine"/>
+                <StringItem index="178" value="Rasburicase"/>
+                <StringItem index="179" value="Regorafenib"/>
+                <StringItem index="180" value="Ritonavir"/>
+                <StringItem index="181" value="Rituximab"/>
+                <StringItem index="182" value="Rivaroxaban"/>
+                <StringItem index="183" value="Ruxolitinib"/>
+                <StringItem index="184" value="Saquinavir"/>
+                <StringItem index="185" value="Sirolimus"/>
+                <StringItem index="186" value="Sorafenib"/>
+                <StringItem index="187" value="Stavudine"/>
+                <StringItem index="188" value="Sucralfate"/>
+                <StringItem index="189" value="Sugammadex"/>
+                <StringItem index="190" value="Sunitinib"/>
+                <StringItem index="191" value="Tacrolimus"/>
+                <StringItem index="192" value="Temozolomide"/>
+                <StringItem index="193" value="Teniposide"/>
+                <StringItem index="194" value="Tenofovir"/>
+                <StringItem index="195" value="Thioguanine"/>
+                <StringItem index="196" value="Thiotepa"/>
+                <StringItem index="197" value="Tobramycin"/>
+                <StringItem index="198" value="Topotecan"/>
+                <StringItem index="199" value="Tretinoin &#x2013; applied to the skin"/>
+                <StringItem index="200" value="Tretinoin &#x2013; by mouth"/>
+                <StringItem index="201" value="Trimethoprim / sulfamethoxazole"/>
+                <StringItem index="202" value="Valproic acid"/>
+                <StringItem index="203" value="Vancomycin"/>
+                <StringItem index="204" value="Vinblastine"/>
+                <StringItem index="205" value="Vincristine"/>
+                <StringItem index="206" value="Voriconazole"/>
+                <StringItem index="207" value="Vorinostat"/>
+                <StringItem index="208" value="Voxelotor"/>
+                <StringItem index="209" value="Warfarin"/>
+                <StringItem index="210" value="Zidovudine"/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="140" y="100" width="100" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="no_of_tab_spinner">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="140" y="130" width="100" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Component class="javax.swing.JComboBox" name="Combo_dosage">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="7">
+                <StringItem index="0" value="-"/>
+                <StringItem index="1" value="0+0+1"/>
+                <StringItem index="2" value="1+0+0"/>
+                <StringItem index="3" value="1+0+1"/>
+                <StringItem index="4" value="1+1+1"/>
+                <StringItem index="5" value="0+1+0"/>
+                <StringItem index="6" value=""/>
+              </StringArray>
+            </Property>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="140" y="160" width="100" height="-1"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="10" y="300" width="470" height="60"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextArea2">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="jPanel3">
+          <Properties>
+            <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+              <Color blue="cc" green="cc" red="cc" type="rgb"/>
+            </Property>
+          </Properties>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="0" y="390" width="850" height="30"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+            <Property name="useNullLayout" type="boolean" value="false"/>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JButton" name="printButton">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Print"/>
+                <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+                  <Border info="null"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="printButtonActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="580" y="0" width="80" height="30"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="update">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Add"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="updateActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="4" y="0" width="60" height="30"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="presc">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Prescribe"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="prescActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="490" y="0" width="-1" height="30"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="delete">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="Delete"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="deleteActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="71" y="0" width="-1" height="30"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton1">
+              <Properties>
+                <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="33" green="33" red="ff" type="rgb"/>
+                </Property>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="Exit"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+              </Events>
+              <Constraints>
+                <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+                  <AbsoluteConstraints x="730" y="0" width="70" height="30"/>
+                </Constraint>
+              </Constraints>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane4">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="0" y="430" width="850" height="170"/>
+            </Constraint>
+          </Constraints>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="jTable1">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="4" rowCount="0">
+                    <Column editable="true" title="Medicine" type="java.lang.Object"/>
+                    <Column editable="true" title="Dosage" type="java.lang.Object"/>
+                    <Column editable="true" title="Quantity" type="java.lang.Object"/>
+                    <Column editable="true" title="Type" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JTextField" name="Name">
+          <Constraints>
+            <Constraint layoutClass="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout" value="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout$AbsoluteConstraintsDescription">
+              <AbsoluteConstraints x="140" y="70" width="100" height="30"/>
+            </Constraint>
+          </Constraints>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
